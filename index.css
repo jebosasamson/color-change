@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gold;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Color {
+    background-color: rgb(202, 202, 206);
+    border-radius: 10px;
+    width: 20%;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.change {
+    background-color: rgb(32, 32, 109);
+    padding: 15px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin: 20px;
+    font-size: 32px;
+    cursor: grab;
+}
